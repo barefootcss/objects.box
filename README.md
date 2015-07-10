@@ -1,3 +1,59 @@
-# objects.box
-The box object is used to box off content from the rest of the page.
-test
+#Box Object
+
+The `box` object boxes off content from the rest of the page.
+
+	<div class="o-box">
+	
+	</div>
+
+## Installation
+
+Install using Bower:
+
+	$ bower install --save bare-box
+
+Import into project:
+
+	@import "bower_components/bare-box/objects.box";
+
+## Options
+
+**box--xs**
+
+The `box--xs` option applies an extra-small padding inside the box.
+
+	<div class="o-box o-box--xs">
+	
+	</div>
+
+**box--s**
+
+The `box--s` option applies a small padding inside the box.
+
+	<div class="o-box o-box--s">
+	
+	</div>
+	
+**box--l**
+
+The `box--l` option applies a large padding inside the box.
+
+	<div class="o-box o-box--l">
+	
+	</div>
+		
+**box--xl**
+
+The `box--xl` option applies an extra-large padding inside the box.
+
+	<div class="o-box o-box--xl">
+	
+	</div>
+		
+**box--flush**
+
+The `box--xl` option creates flush boxes with no padding.
+
+	<div class="o-box o-box--flush">
+	
+	</div>
