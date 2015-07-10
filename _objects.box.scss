@@ -1,0 +1,97 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+//
+// Features:
+//
+
+$bare-box--xs:					  	false !default;
+$bare-box--s:					  	false !default;
+$bare-box--l:					  	false !default;
+$bare-box--xl:					  	false !default;
+$bare-box--flush:				  	false !default;
+
+/* 
+   #box
+   ========================================================================== */
+
+/**
+ * The box object is used to box off content from the rest of the page.
+ *
+ * Usage:
+ *
+ * <div class="o-box">
+ *
+ * </div>
+ */
+
+.o-box {
+	display: block;
+	padding: flowRem($flow-sp-m);
+}
+
+	.o-box > :last-child {
+		margin-bottom: 0;
+	}
+
+
+// 
+// #box--xs
+// ========================================================================== 
+
+@if ($bare-box--xs == true) {
+
+	.o-box--xs {
+		padding: bareRem($bare-sp-xs);				
+	}
+
+} 
+
+// 
+// #box--s
+// ========================================================================== 
+
+@if ($bare-box--s == true) {
+
+	.o-box--s {
+		padding: bareRem($bare-sp-s);				
+	}
+
+} 
+
+// 
+// #box--l
+// ========================================================================== 
+
+@if ($bare-box--l == true) {
+
+	.o-box--l {
+		padding: bareRem($bare-sp-l);				
+	}
+
+} 
+
+// 
+// #box--xl
+// ========================================================================== 
+
+@if ($bare-box--xl == true) {
+
+	.o-box--xl {
+		padding: bareRem($bare-sp-xl);				
+	}
+
+} 
+
+// 
+// #box--flush
+// ========================================================================== 
+
+@if ($bare-box--flush == true) {
+
+	.o-box--flush {
+		padding: 0;				
+	}
+
+} 
