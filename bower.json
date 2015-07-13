@@ -15,8 +15,8 @@
   "license": "MIT",
   "homepage": "https://github.com/barefootcss/objects.box",
   "dependencies": {
-    "bare-defaults": "~1.0.1",
-    "bare-functions": "~1.0.1"
+    "bare-defaults": "~1.0.0",
+    "bare-functions": "~1.0.0"
   }
 }
   
